@@ -9,6 +9,7 @@ import ExtensionIcon from "@material-ui/icons/Extension";
 import CategoryIcon from "@material-ui/icons/Category";
 import LibraryBooks from "@material-ui/icons/LibraryBooks";
 import ShoppingCart from "@material-ui/icons/ShoppingCart";
+import ComputerIcon from "@material-ui/icons/Computer";
 import CreateComponentIcon from "@material-ui/icons/AddCircleOutline";
 import MenuIcon from "@material-ui/icons/Menu";
 import SearchIcon from "@material-ui/icons/Search";
@@ -77,7 +78,7 @@ export const Root = ({ children }: PropsWithChildren<{}>) => (
         <SidebarItem icon={LibraryBooks} to="docs" text="Docs" />
         <SidebarItem icon={CreateComponentIcon} to="create" text="Create..." />
         <SidebarItem icon={ShoppingCart} to="partners" text="Marketplace..." />
-        <SidebarItem icon={ShoppingCart} to="my-dev-tools" text="My Dev Tools..." />
+        <SidebarItem icon={ComputerIcon} to="my-dev-tools" text="My Dev Tools..." />
         {/* End global nav */}
         <SidebarDivider />
       </SidebarGroup>
