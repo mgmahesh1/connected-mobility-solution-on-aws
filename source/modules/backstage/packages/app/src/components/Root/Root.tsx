@@ -56,7 +56,8 @@ const SidebarLogo = () => {
   return (
     <div className={classes.root}>
       <Link to="/" underline="none" className={classes.link} aria-label="Home">
-        {isOpen ? <LogoFull /> : <LogoIcon />}
+      <LogoFull />
+        {/* {isOpen ? <LogoFull /> : <LogoIcon />} */}
       </Link>
     </div>
   );
@@ -74,9 +75,9 @@ export const Root = ({ children }: PropsWithChildren<{}>) => (
         {/* Global nav, not org-specific */}
         <SidebarItem icon={HomeIcon} to="/" text="Home" />
         <SidebarItem icon={CategoryIcon} to="catalog" text="Catalog" />
-        <SidebarItem icon={ExtensionIcon} to="api-docs" text="APIs" />
+        {/* <SidebarItem icon={ExtensionIcon} to="api-docs" text="APIs" /> */}
         <SidebarItem icon={LibraryBooks} to="docs" text="Docs" />
-        <SidebarItem icon={CreateComponentIcon} to="create" text="Create..." />
+        {/* <SidebarItem icon={CreateComponentIcon} to="create" text="Create..." /> */}
         <SidebarItem icon={ShoppingCart} to="partners" text="Marketplace..." />
         <SidebarItem icon={ComputerIcon} to="my-dev-tools" text="My Dev Tools..." />
         {/* End global nav */}
