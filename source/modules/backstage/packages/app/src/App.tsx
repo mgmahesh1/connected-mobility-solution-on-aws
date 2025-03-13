@@ -44,6 +44,7 @@ import { Root } from "./components/Root";
 import { entityPage } from "./components/EntityPage";
 import { searchPage } from "./components/SearchPage";
 import { homePage } from "./components/HomePage";
+import { MyDevToolsPage } from './components/DrivespherePage/Drivesphere';
 
 import { AcdpPartnerOfferingPage } from "backstage-plugin-acdp-partner-offering";
 
@@ -140,6 +141,7 @@ const routes = (
     </Route>
     <Route path="/settings" element={<UserSettingsPage />} />
     <Route path="/catalog-graph" element={<CatalogGraphPage />} />
+    <Route path="/my-dev-tools" element={<MyDevToolsPage />} />
   </FlatRoutes>
 );
 
