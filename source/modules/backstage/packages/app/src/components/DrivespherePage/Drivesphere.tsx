@@ -11,9 +11,9 @@ export const MyDevToolsPage = () => {
     return (
         <Page themeId="home">
             <Header
-                title="Browse Launched Assets"
+                title="[DriveSphere] Workbench for IVI"
                 subtitle="A list of launched assets that have been deployed on AWS"
-                pageTitleOverride="Launched Assets"
+                pageTitleOverride="Workbench for IVI"
             />
             <Content>
                 <ContentHeader title="Available Launched Assets" />
@@ -23,29 +23,46 @@ export const MyDevToolsPage = () => {
                 <Grid item xs={12} sm={6} md={4} lg={3}>
                     <Card sx={{ height: '100%' }}>
                         <CardContent>
+                            <h2>Map Customization and Management Portal</h2>
+                            <p>HERE + Elektrobit</p>
+                        </CardContent>
+                        <CardActions>
+                            {/* Add EB IVI + HERE Website URL */}
+                            <Link href="https://example.com" target="_blank" rel="noopener noreferrer">
+                                Launch
+                            </Link>
+                        </CardActions>
+                    </Card>
+                </Grid>  
+
+                <Grid item xs={12} sm={6} md={4} lg={3}>
+                    <Card sx={{ height: '100%' }}>
+                        <CardContent>
+                            <h2>Instrument Cluster UX Design and Dev</h2>
+                            <p>Figma + Qt Creator + Qt Squish + Genymobile</p>
+                        </CardContent>
+                        <CardActions>
+                            {/* Add Figma + Qt Creator + QT SQuish + Genymobile URL */}
+                            <Link href="https://example.com" target="_blank" rel="noopener noreferrer">
+                                Launch
+                            </Link>
+                        </CardActions>
+                    </Card>
+                </Grid>  
+
+                <Grid item xs={12} sm={6} md={4} lg={3}>
+                    <Card sx={{ height: '100%' }}>
+                        <CardContent>
                             <h2>GitLab Project Repo</h2>
                             <p>Launch code refactoring</p>
                         </CardContent>
                         <CardActions>
                             <Link href="https://lab1.gitlab-qdev.ai.aws.dev/demos/kanzi-demo#" target="_blank" rel="noopener noreferrer">
-                                Search
+                                Launch
                             </Link>
                         </CardActions>
                     </Card>
-                </Grid>                      
-                <Grid item xs={12} sm={6} md={4} lg={3}>
-                        <Card sx={{ height: '100%' }}>
-                            <CardContent>
-                                <h2>AWS - GenAI-powered Search</h2>
-                                <p>Search for your ADAS scene dataset</p>
-                            </CardContent>
-                            <CardActions>
-                                <Link href="https://d15puwge5ieiuh.cloudfront.net/metadata-scenario" target="_blank" rel="noopener noreferrer">
-                                Search
-                                </Link>
-                            </CardActions>
-                        </Card>
-                    </Grid>                    
+                </Grid>                                        
                     <Grid item xs={12} sm={6} md={4} lg={3}>
                         <Card sx={{ height: '100%' }}>
                             <CardContent>
